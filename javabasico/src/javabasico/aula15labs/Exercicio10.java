@@ -13,7 +13,7 @@ public class Exercicio10 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
 		
-		System.out.println("Qual turno você estuda? M-matutino ou V-Vespertino ou N- Noturno? ");
+		System.out.println("Qual turno você estuda? M-matutino ou V-Vespertino ou N- Noturno?: ");
 		String turno = scan.next();
 		
 		if (turno.equalsIgnoreCase("m")) {

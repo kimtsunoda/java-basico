@@ -11,7 +11,7 @@ public class Exercicio12 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
 		
-		System.out.println("Informar quantidade de horas trabalhas : ");
+		System.out.println("Informar quantidade de horas trabalhas: ");
 		double hrTrabalhada = scan.nextDouble();
 		System.out.println("Informar valor horas : ");
 		double valorHr = scan.nextDouble();

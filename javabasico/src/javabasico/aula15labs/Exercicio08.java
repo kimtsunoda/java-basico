@@ -22,11 +22,11 @@ public class Exercicio08 {
 		
 		
 		if (produto1 <= produto2 && produto1 <= produto3) {
-			System.out.println("Comprar o produto 1 : " + produto1);
+			System.out.println("Comprar o produto 1: " + produto1);
 		} else if (produto2 <= produto3) {
-			System.out.println("Comprar o produto 2 : " + produto2);
+			System.out.println("Comprar o produto 2: " + produto2);
 		} else {
-			System.out.println("Comprar o produto 3 : " + produto3);
+			System.out.println("Comprar o produto 3: " + produto3);
 		}
 	}
 

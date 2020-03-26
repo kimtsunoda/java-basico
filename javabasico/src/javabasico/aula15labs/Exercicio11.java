@@ -12,7 +12,7 @@ public class Exercicio11 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
 		
-		System.out.println("Informar o salario : ");
+		System.out.println("Informar o salario: ");
 		double salario = scan.nextDouble();
 		
 		if (salario <= 280) {
