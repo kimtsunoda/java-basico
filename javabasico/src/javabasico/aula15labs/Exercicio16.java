@@ -16,6 +16,13 @@ public class Exercicio16 {
 		System.out.println ("Digite a:");
 		int a = scan.nextInt();
 		
+		int b;
+		int c;
+		double delta;
+		double x1;
+		double x2;
+		
+		
 		if (a == 0) {
 			
 			System.out.println("Nao é uma equacao e 2 grau");
@@ -23,19 +30,19 @@ public class Exercicio16 {
 		} else {
 			
 			System.out.println ("Digite b:");
-			int b = scan.nextInt();
+			b = scan.nextInt();
 			
 			System.out.println ("Digite c:");
-			int c = scan.nextInt();
+			c = scan.nextInt();
 			
-			double delta = Math.pow(b, 2) - (4 * a * c);
+			delta = Math.pow(b, 2) - (4 * a * c);
 
 			if (delta < 0 ) {
 				System.out.println("Delta negativo");
 			} else {
 				
-				double x1 = ((-b) + Math.sqrt(delta)) / (2*a);
-				double x2 = ((-b) - Math.sqrt(delta)) / (2*a);
+				x1 = ((-b) + Math.sqrt(delta)) / (2*a);
+				x2 = ((-b) - Math.sqrt(delta)) / (2*a);
 				
 				System.out.println("Delta = " + delta);
 				System.out.println("x1 = " + x1);

@@ -15,11 +15,15 @@ public class Exercicio11 {
 		System.out.println("Informar o salario: ");
 		double salario = scan.nextDouble();
 		
+		double percentual;
+		double aumento;
+		double novosalario;
+		
 		if (salario <= 280) {
 			
-			double percentual = 20;
-			double aumento = (salario * percentual) / 100;
-			double novosalario = salario + aumento;
+			percentual = 20;
+			aumento = (salario * percentual) / 100;
+			novosalario = salario + aumento;
 			
 			System.out.println("Salario antes do reajuste: " + salario);
 			System.out.println("Percentual de aumento aplicado: " + percentual);
@@ -28,9 +32,9 @@ public class Exercicio11 {
 			
 		} else if (salario < 700) {
 			
-			double percentual = 15;
-			double aumento = (salario * percentual) / 100;
-			double novosalario = salario + aumento;
+			percentual = 15;
+			aumento = (salario * percentual) / 100;
+			novosalario = salario + aumento;
 			
 			System.out.println("Salario antes do reajuste: " + salario);
 			System.out.println("Percentual de aumento aplicado: " + percentual);
@@ -39,9 +43,9 @@ public class Exercicio11 {
 			
 		} else if ( salario < 1500) {
 			
-			double percentual = 10;
-			double aumento = (salario * percentual) / 100;
-			double novosalario = salario + aumento;
+			percentual = 10;
+			aumento = (salario * percentual) / 100;
+			novosalario = salario + aumento;
 			
 			System.out.println("Salario antes do reajuste: " + salario);
 			System.out.println("Percentual de aumento aplicado: " + percentual);
@@ -49,9 +53,9 @@ public class Exercicio11 {
 			System.out.println("Novo Salario: " + novosalario);
 		} else {
 			
-			double percentual = 5;
-			double aumento = (salario * percentual) / 100;
-			double novosalario = salario + aumento;
+			percentual = 5;
+			aumento = (salario * percentual) / 100;
+			novosalario = salario + aumento;
 			
 			System.out.println("Salario antes do reajuste: " + salario);
 			System.out.println("Percentual de aumento aplicado: " + percentual);

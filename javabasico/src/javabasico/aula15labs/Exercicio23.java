@@ -56,8 +56,10 @@ public class Exercicio23 {
 		System.out.println ("Pagamento no cartao Tabajara? S(sim) ou N(Nao)" );
 		String cartao = scan.next();
 		
+		double desconto;
+		
 		if(cartao.equalsIgnoreCase("S")) {
-			double desconto = (total/100)*5;
+			desconto = (total/100)*5;
 			System.out.println ("Desconto " + desconto );
 			System.out.println ("Valor a pagar " + (total - desconto) );
 		} else {

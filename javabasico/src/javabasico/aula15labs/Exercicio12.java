@@ -16,16 +16,22 @@ public class Exercicio12 {
 		System.out.println("Informar valor horas : ");
 		double valorHr = scan.nextDouble();
 		
+		double irper;
+		double ir;
+		double inss;
+		double fgts;
+		double desconto;
+		double salarioLiquido;
 		double salario = hrTrabalhada * valorHr;
 		
 		if (salario <= 900) {
 			
-			double irper = 0;
-			double ir = (salario * irper) / 100;
-			double inss = salario * 0.10;
-			double fgts = salario * 0.11;
-			double desconto = ir + inss;
-			double salarioLiquido = salario - desconto;
+			irper = 0;
+			ir = (salario * irper) / 100;
+			inss = salario * 0.10;
+			fgts = salario * 0.11;
+			desconto = ir + inss;
+			salarioLiquido = salario - desconto;
 			
 			System.out.println("Salario Bruto: " + salario);
 			System.out.println("IR (" + irper + " %) :" + ir);
@@ -36,12 +42,12 @@ public class Exercicio12 {
 			
 		} else if (salario < 1500) {
 			
-			double irper = 5;
-			double ir = (salario * irper) / 100;
-			double inss = salario * 0.10;
-			double fgts = salario * 0.11;
-			double desconto = ir + inss;
-			double salarioLiquido = salario - desconto;
+			irper = 5;
+			ir = (salario * irper) / 100;
+			inss = salario * 0.10;
+			fgts = salario * 0.11;
+			desconto = ir + inss;
+			salarioLiquido = salario - desconto;
 			
 			System.out.println("Salario Bruto: " + salario);
 			System.out.println("IR ( " + irper + " %) :" + ir);
@@ -53,12 +59,12 @@ public class Exercicio12 {
 			
 		} else if ( salario < 2500) {
 			
-			double irper = 10;
-			double ir = (salario * irper) / 100;
-			double inss = salario * 0.10;
-			double fgts = salario * 0.11;
-			double desconto = ir + inss;
-			double salarioLiquido = salario - desconto;
+			irper = 10;
+			ir = (salario * irper) / 100;
+			inss = salario * 0.10;
+			fgts = salario * 0.11;
+			desconto = ir + inss;
+			salarioLiquido = salario - desconto;
 			
 			System.out.println("Salario Bruto: " + salario);
 			System.out.println("IR ( " + irper + " %) :" + ir);
@@ -69,12 +75,12 @@ public class Exercicio12 {
 			
 		} else {
 			
-			double irper = 20;
-			double ir = (salario * irper) / 100;
-			double inss = salario * 0.10;
-			double fgts = salario * 0.11;
-			double desconto = ir + inss;
-			double salarioLiquido = salario - desconto;
+			irper = 20;
+			ir = (salario * irper) / 100;
+			inss = salario * 0.10;
+			fgts = salario * 0.11;
+			desconto = ir + inss;
+			salarioLiquido = salario - desconto;
 			
 			System.out.println("Salario Bruto: " + salario);
 			System.out.println("IR ( " + irper + " %) :" + ir);

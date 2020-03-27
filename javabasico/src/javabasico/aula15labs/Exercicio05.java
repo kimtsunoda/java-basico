@@ -24,13 +24,10 @@ public class Exercicio05 {
 		
 		if (media == 10) {
 			System.out.println("Media: "+ media + " Aprovado com distincao");
-			
 		} else if (media >= 7) {
 			System.out.println("Media: "+ media + " Aprovado");
-			
 		} else {
 			System.out.println("Media: "+ media + " Reprovado");
-			
 		}
 			
 	}
