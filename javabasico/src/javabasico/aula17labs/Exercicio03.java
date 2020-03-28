@@ -3,14 +3,14 @@ package javabasico.aula17labs;
 import java.util.Scanner;
 
 /**
- * @author newuser
+ * @author Kim Tsunoda
  * Objetivo Faça um programa que leia e valide as seguintes informações:
  */
+
 public class Exercicio03 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
-		
 		
 		boolean validar = false;
 		String nome;

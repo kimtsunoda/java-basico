@@ -3,14 +3,14 @@ package javabasico.aula17labs;
 import java.util.Scanner;
 
 /**
- * @author newuser
+ * @author Kim Tsunoda
  * Objetivo Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagemde erro e voltando a pedir as informações.
  */
+
 public class Exercicio02 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
-		
 		
 		boolean validar = false;
 		
