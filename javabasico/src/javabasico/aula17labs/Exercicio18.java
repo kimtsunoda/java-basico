@@ -13,7 +13,7 @@ public class Exercicio18 {
 		Scanner scan = new Scanner (System.in);
 		
 		int numero;
-		int divisivel = 0;
+		int divisivel=0;
 		
 		System.out.println("Digite um numero: ");
 		numero = scan.nextInt();
