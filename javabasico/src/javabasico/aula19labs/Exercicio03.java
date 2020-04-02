@@ -16,7 +16,7 @@ public class Exercicio03 {
 		int[] vetorB = new int [vetorA.length];
 		
 		for (int i=0 ; i < vetorA.length ; i++ ) {
-			System.out.println("Digite um valor: ");
+			System.out.println("Digite a posicao " + i + " do vetor A" );
 			vetorA [i] = scan.nextInt();
 			
 			vetorB[i] = vetorA[i] * vetorA[i];

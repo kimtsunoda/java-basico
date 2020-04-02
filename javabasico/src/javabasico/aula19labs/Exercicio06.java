@@ -17,12 +17,12 @@ public class Exercicio06 {
 		int[] vetorC = new int[vetorA.length];
 		
 		for (int i=0 ; i < vetorA.length ; i++ ) {
-			System.out.println("Digite um valor para o vetor A: ");
+			System.out.println("Digite a posicao " + i + " do vetor A");
 			vetorA [i] = scan.nextInt();
 			}
 		
 		for (int i=0 ; i < vetorA.length ; i++ ) {
-			System.out.println("Digite um valor para o vetor B: ");
+			System.out.println("Digite a posicao " + i + " do vetor B");
 			vetorB [i] = scan.nextInt();
 			
 			vetorC[i] = vetorA[i] + vetorB[i];
