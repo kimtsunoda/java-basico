@@ -1,6 +1,3 @@
-/**
- * 
- */
 package javabasico.aula20labs;
 
 import java.util.Scanner;
