@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Kim Tsunoda
  * Objetivo Gere e imprima uma matriz M 10x10 com valores aleatórios entre 0-9. Após isso indique qual é o maior e o menor valor da linha 5 e qual é o maior e o menor valor da coluna 7.
  */
+
 public class Exercicio02 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
