@@ -1,4 +1,3 @@
-
 package javabasico.aula15labs;
 
 import java.util.Scanner;
@@ -27,4 +26,5 @@ public class Exercicio10 {
 		}
 		
 	}
+	
 }

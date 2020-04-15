@@ -1,4 +1,3 @@
-
 package javabasico.aula15labs;
 
 import java.util.Scanner;
@@ -32,6 +31,7 @@ public class Exercicio09 {
 		} else {
 			System.out.println (numero2 + " - " + numero1 + " - " + numero3);
 		}
+		
 	}
 
 }

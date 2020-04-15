@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * @author Kim Tsunoda
- * Objetivo Faça um Programa que peça dois números e imprima o maior deles.
+ * Objetivo Faca um Programa que peça dois números e imprima o maior deles.
  *
  */
 

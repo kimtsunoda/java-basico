@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author Kim Tsunoda
- * Objetivo: Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+ * Objetivo: Faca um Programa que peça o raio de um círculo, calcule e mostre sua área.
  */
 
 public class Exercicio06 {

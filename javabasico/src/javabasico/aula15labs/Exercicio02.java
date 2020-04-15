@@ -1,11 +1,10 @@
-
 package javabasico.aula15labs;
 
 import java.util.Scanner;
 
 /**
  * @author kim tsunoda
- * objetivo Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+ * objetivo Faca um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
  *
  */
 

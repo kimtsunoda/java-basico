@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author Kim Tsunoda
- * Objetivo: Faça um Programa que peça a temperatura em graus Celsius,transforme e mostre em graus Farenheit.
+ * Objetivo: Faca um Programa que peça a temperatura em graus Celsius,transforme e mostre em graus Farenheit.
  */
 
 public class Exercicio10 {

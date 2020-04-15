@@ -1,4 +1,3 @@
-
 package javabasico.aula15labs;
 
 import java.util.Scanner;
@@ -28,6 +27,7 @@ public class Exercicio08 {
 		} else {
 			System.out.println("Comprar o produto 3: " + produto3);
 		}
+		
 	}
 
 }

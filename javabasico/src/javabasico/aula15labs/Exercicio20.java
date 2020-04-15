@@ -1,4 +1,3 @@
-
 package javabasico.aula15labs;
 
 import java.util.Scanner;
@@ -54,6 +53,7 @@ public class Exercicio20 {
 		} else {
 			System.out.println("Inocente");
 		}
+		
 }	
 		
 }

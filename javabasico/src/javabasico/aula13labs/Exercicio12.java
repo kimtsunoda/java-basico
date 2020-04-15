@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 /**
  * @author Kim Tsunoda
- * Objetivo: Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
+ * Objetivo: Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a 
+ * seguinte fórmula: (72.7*altura) - 58
  */
 
 public class Exercicio12 {

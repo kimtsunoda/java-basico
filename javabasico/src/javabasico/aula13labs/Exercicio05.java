@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author Kim Tsunoda
- * Objetivo: Faça um Programa que converta metros para centímetros.
+ * Objetivo: Faca um Programa que converta metros para centímetros.
  */
 
 public class Exercicio05 {

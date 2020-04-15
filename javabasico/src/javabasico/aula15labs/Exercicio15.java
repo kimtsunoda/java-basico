@@ -1,4 +1,3 @@
-
 package javabasico.aula15labs;
 
 import java.util.Scanner;
@@ -33,4 +32,5 @@ public class Exercicio15 {
 			System.out.println ("O triangulo é Escaleno");
 		
 	}
+	
 }

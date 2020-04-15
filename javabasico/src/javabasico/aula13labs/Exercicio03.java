@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author Kim Tsunoda
- * Objetivo: Faça um Programa que peça dois números e imprima a soma.
+ * Objetivo: Faca um Programa que peça dois números e imprima a soma.
  */
 
 public class Exercicio03 {

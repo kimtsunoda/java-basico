@@ -1,4 +1,3 @@
-
 package javabasico.aula15labs;
 
 import java.util.Scanner;
@@ -34,6 +33,7 @@ public class Exercicio07 {
 		} else {
 			System.out.println("O menor numero é o 3 : " + numero3);
 		}
+		
 	}
 
 }

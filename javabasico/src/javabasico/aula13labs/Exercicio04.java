@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author Kim Tsunoda
- * Objetivo: Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+ * Objetivo: Faca um Programa que peça as 4 notas bimestrais e mostre a média.
  */
 
 public class Exercicio04 {

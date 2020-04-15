@@ -1,4 +1,3 @@
-
 package javabasico.aula15labs;
 
 import java.util.Scanner;
@@ -23,8 +22,7 @@ public class Exercicio18 {
 			
 			System.out.println (numero + " é impar");
 		}
-		
 			
-}	
+	}	
 		
 }

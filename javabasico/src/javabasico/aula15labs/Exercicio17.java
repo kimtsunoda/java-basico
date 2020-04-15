@@ -1,4 +1,3 @@
-
 package javabasico.aula15labs;
 
 import java.util.Scanner;
@@ -24,8 +23,6 @@ public class Exercicio17 {
 			System.out.println ("O ano " + ano + " não é bissexto");
 		}
 			
-			
 		}
 			
 }	
-		
