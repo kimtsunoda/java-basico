@@ -2,6 +2,13 @@ package javabasico.aula33labs;
 
 import java.util.Scanner;
 
+/**
+ * @author Kim Tsunoda
+ * Objetivo Desenvolva uma classe para representar o Jogo da Velha.Desenvolva uma classe para testar o Jogo. Criando	todos os atributos
+ * do tipo privado, métodos	getters e setters e construtores. Os métodos que serão utilizados pela classe de teste devem ser públicos.	
+ * Se necessário, crie métodos privados	como auxiliares	para organizar melhor o	código	fonte	também.
+ */
+
 public class Exercicio04 {
 		public static void main (String []args) {
 			Scanner scan = new Scanner (System.in);

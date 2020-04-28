@@ -2,6 +2,11 @@ package javabasico.aula34labs;
 
 import java.util.Scanner;
 
+/**
+ * @author Kim Tsunoda
+ * Objetivo Escreva	um método para calcular factorial de um	número na classe Calculadora do	exercício anterior.
+ */
+
 public class Exercicio03 {
 
 	public static void main(String[] args) {
@@ -18,7 +23,7 @@ public class Exercicio03 {
 			}
 		} while (num < 0);
 		
-		Fatorial.imprimirTotal(num, Fatorial.fatorial(num));
+		Calculadora.imprimirTotal(num, Calculadora.fatorial(num));
 	}
 
 }

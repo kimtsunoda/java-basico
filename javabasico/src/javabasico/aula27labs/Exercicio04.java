@@ -2,6 +2,11 @@ package javabasico.aula27labs;
 
 import java.util.Scanner;
 
+/**
+ * @author Kim Tsunoda
+ * Objetivo Desenvolva uma classe para representar o Jogo da Velha.Desenvolva uma classe para testar o Jogo.
+ */
+
 public class Exercicio04 {
 		public static void main (String []args ) {
 			Scanner scan = new Scanner (System.in);
