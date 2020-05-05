@@ -28,5 +28,18 @@ public class ContaBancaria {
 		return "ContaBancaria [nomeCliente=" + nomeCliente + ", numeroConta=" + numeroConta + ", saldo=" + saldo + "]";
 	}
 	
+	public void depositar (double valor) {
+		saldo += valor;
+		System.out.println("Deposito Realizado");
+	}
 	
+	public void sacar (double valor) {
+		if((saldo-valor) >= 0) {
+			saldo -= valor;
+			System.out.println("Saque Realizado com Sucesso. O novo saldo é " + saldo );
+		} else {
+			System.out.println("Saldo Insuficiente");
+		}
+		
+	}
 }
